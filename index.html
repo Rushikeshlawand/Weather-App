@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+  </head>
+
+  <body>
+    <h2 id="one"></h2>
+
+    <form onsubmit="submitData(event)" method="post">
+      <input type="text" name="city" value="" placeholder="City" id="city" /><br><br>
+      <input
+        type="text"
+        name="country"
+        value=""
+        placeholder="Country"
+        id="country"
+      />
+      <br><br>
+      <button>Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
